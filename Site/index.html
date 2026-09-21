@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>サバキャン | サバゲー×キャンプ 1泊2日アウトドアイベント</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;600;700&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-row">
+    <div class="logo">
+      <svg class="logo-mark" viewBox="0 0 40 40" fill="none">
+        <path d="M4 30L14 8L20 20L26 8L36 30" stroke="#4F5D3A" stroke-width="3" fill="none" stroke-linejoin="round"/>
+        <circle cx="20" cy="20" r="3" fill="#C1481E"/>
+      </svg>
+      <div>サバキャン<small>SABAGE × CAMP</small></div>
+    </div>
+    <nav class="links">
+      <a href="#concept">コンセプト</a>
+      <a href="#overview">概要</a>
+      <!-- <a href="#fee">料金</a> -->
+      <a href="#schedule">スケジュール</a>
+      <a href="#news">お知らせ</a>
+      <a href="#gear">持ち物</a>
+      <a href="#access">アクセス</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a href="https://forms.gle/Z2dyhayuvTG1zTHE6" class="btn-entry" target="_blank" rel="noopener">エントリー</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="メニュー"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">サバゲー × キャンプ <b>一泊二日</b> アウトドアイベント</div>
+    <h1>昼は撃ち合い、夜は語り合う</h1>
+    <p class="lead">フィールドで汗を流したら、そのまま同じ場所でテントを張り、焚き火を囲む。サバゲーとキャンプ、ふたつの遊びを一度に味わうイベント「サバキャン」。</p>
+    <div class="hero-meta">
+      <div><span>開催日</span><strong class="num">2026.11.14(土) - 15(日)</strong></div>
+      <div><span>会場</span><strong>サバイバルゲームフィールド BEAM</strong></div>
+      <div><span>参加費</span><strong class="num">4,000円〜</strong></div>
+    </div>
+    <div class="hero-cta">
+      <a href="https://forms.gle/Z2dyhayuvTG1zTHE6" class="btn-primary" target="_blank" rel="noopener">参加エントリーする</a>
+      <a href="#overview" class="btn-ghost">開催概要を見る</a>
+    </div>
+  </div>
+</section>
+
+<div class="trail-divider"></div>
+
+<section class="pad" id="concept">
+  <div class="wrap">
+    <div class="section-head"><span class="idx num">01</span><h2>コンセプト</h2></div>
+    <p style="max-width:60ch; color:var(--ink-soft); margin-bottom:36px;">「遊び終わったら解散」ではなく、「遊んだ場所でそのまま夜を過ごす」。フィールドを昼と夜で使い分け、ひとつの体験としてつなげます。</p>
+  </div>
+  <div class="wrap">
+    <div class="concept-grid">
+      <div class="concept-card day">
+        <span class="concept-tag num">DAYTIME / 昼の部</span>
+        <h3>サバイバルゲーム</h3>
+        <p>初心者から経験者まで参加できるレギュレーションで、複数ゲームを実施。装備レンタルや講習もあるので、道具がなくても参加できます。</p>
+      </div>
+      <div class="concept-card night">
+        <span class="concept-tag num">NIGHTTIME / 夜の部</span>
+        <h3>焚き火キャンプ</h3>
+        <p>同じフィールドにテントを設営し、焚き火を囲んで一日を振り返る特別な夜に。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="trail-divider"></div>
+
+<section class="pad" id="overview">
+  <div class="wrap">
+    <div class="section-head"><span class="idx num">02</span><h2>開催概要</h2></div>
+    <table class="overview-table">
+      <tr><th>日時</th><td>2026年11月14日(土) 08:00 〜 15日(日) 08:00</td></tr>
+      <tr><th>会場</th><td>サバイバルゲームフィールド BEAM<br>〒270-1605 千葉県印西市平賀2227-1<br>TEL 090-2736-1100<br>詳しい行き方は「アクセス」をご確認ください。</td></tr>
+      <!-- <tr id="fee"><th>料金</th><td>
+        ・サバゲーのみ参加:4,000円<br>
+        ・BBQのみ参加:4,000円<span class="num" style="font-size:0.75em; color:var(--ink-soft);">※1</span><br>
+        ・両方参加:6,000円<br>
+        ・BBQ食費:1,000〜2,000円程度<span class="num" style="font-size:0.75em; color:var(--ink-soft);">※2</span><br>
+        ・初心者セット:3,500円<span class="num" style="font-size:0.75em; color:var(--ink-soft);">※3</span><br>
+        ・お昼のカレー:800円<span class="num" style="font-size:0.75em; color:var(--ink-soft);">※4</span>
+        <div style="margin-top:12px; font-size:0.8rem; color:var(--ink-soft); line-height:1.9;">
+          ※1 BBQ代は日帰り・宿泊問わず、BBQコンロ・網・ごみ処分代を含みます。<br>
+          ※2 当日参加者で割り勘します。<br>
+          ※3 一部レンタルの場合は要相談。<br>
+          ※4 カレー代はサバゲー参加者無料です。
+        </div>
+      </td></tr> -->
+      <tr><th>送迎</th><td>
+        11/14(土) 9:00 <br>
+        11/14(土) ゲーム終了後 <br>
+        11/15(日) 7:30〜8:30<br>
+        <span style="font-size:0.85rem; color:var(--ink-soft);">京成酒々井駅西口ロータリー ⇔ BEAM(最大8名)</span>
+      </td></tr>
+      <tr>
+        <th>申込締切</th>
+        <td>参加申込:11/8(日) 24:00 <br> 
+          支払:11/9(月) 24:00<br>
+          <span style="font-size:0.85rem; color:var(--ink-soft);">※ドタ参は要相談</span>
+        </td>
+      </tr>
+      <tr>
+        <th>キャンセル<br>ポリシー</th>
+        <td>前日以降(11/13 00:00〜のキャンセル):参加費100%</td>
+      </tr>
+      <tr><th>主催</th><td>サバキャン実行委員会</td></tr>
+    </table>
+  </div>
+</section>
+
+<div class="trail-divider"></div>
+
+<section class="pad" id="schedule">
+  <div class="wrap">
+    <div class="section-head"><span class="idx num">03</span><h2>タイムスケジュール</h2></div>
+    <div class="day-tabs">
+      <button class="day-tab active" data-day="1">DAY 1 / 11.14(土)</button>
+      <button class="day-tab" data-day="2">DAY 2 / 11.15(日)</button>
+    </div>
+
+    <div class="day-panel active" data-day-panel="1">
+      <div class="timeline">
+        <div class="t-item"><div class="t-time">08:00</div><div class="t-label">集合</div><div class="t-desc">フィールドに集合してください。</div></div>
+        <div class="t-item"><div class="t-time">08:30</div><div class="t-label">受付・準備</div><div class="t-desc">受付を済ませ、装備の準備を行います。</div></div>
+        <div class="t-item"><div class="t-time">10:00</div><div class="t-label">ゲーム開始</div><div class="t-desc">集まった人数でゲームを開始します。</div></div>
+        <div class="t-item"><div class="t-time">12:00</div><div class="t-label">お昼</div><div class="t-desc">ゲーム参加者は無料のカレー提供があります。</div></div>
+        <div class="t-item"><div class="t-time">13:00</div><div class="t-label">ゲーム再開</div><div class="t-desc">午後のゲームを行います。</div></div>
+        <div class="t-item"><div class="t-time">16:30</div><div class="t-label">ゲーム終了・片付け</div><div class="t-desc">フィールドの片付けを行います。</div></div>
+        <div class="t-item"><div class="t-time">17:00</div><div class="t-label">買い出し</div><div class="t-desc">キャンプ用の食材・飲み物などを調達します。</div></div>
+        <div class="t-item"><div class="t-time">18:00</div><div class="t-label">キャンプ</div><div class="t-desc">テント設営、火おこしなど。その後はお風呂に行くなり、寝るなり自由解散です。</div></div>
+      </div>
+    </div>
+
+    <div class="day-panel" data-day-panel="2">
+      <div class="timeline">
+        <div class="t-item"><div class="t-time">06:00</div><div class="t-label">起床・片付け</div><div class="t-desc">テント撤収とゴミの分別。来た時よりきれいにして帰りましょう。</div></div>
+        <div class="t-item"><div class="t-time">07:50</div><div class="t-label">解散</div><div class="t-desc">お疲れさまでした。気をつけてお帰りください。</div></div>
+        <div class="t-item"><div class="t-time">08:00</div><div class="t-label">完全撤退</div><div class="t-desc">フィールドから完全に撤退します。</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="trail-divider"></div>
+
+<section class="pad" id="news">
+  <div class="wrap">
+    <div class="section-head"><span class="idx num">04</span><h2>お知らせ</h2></div>
+    <p style="max-width:60ch; color:var(--ink-soft); margin-bottom:32px;">開催情報や持ち物、天候による変更などは随時こちらに掲載します。</p>
+    <div class="news-board">
+      <!-- <div class="news-item">
+        <div class="news-date num">2026.10.12</div>
+        <span class="news-tag important">重要</span>
+        <div><div class="news-title">料金・送迎・申込締切を確定しました</div><div class="news-body">参加料金、送迎便(京成酒々井駅⇔BEAM)、申込・支払締切、キャンセルポリシーを「開催概要」に掲載しました。あわせて申し込みフォームも新しくなりましたのでご確認ください。</div></div>
+      </div>
+      <div class="news-item">
+        <div class="news-date num">2026.10.05</div>
+        <span class="news-tag important">重要</span>
+        <div><div class="news-title">開催日・会場が確定しました</div><div class="news-body">開催日は2026年11月14日(土)〜15日(日)、会場は「サバイバルゲームフィールド BEAM」に決定しました。詳細は「開催概要」「アクセス」をご確認ください。</div></div>
+      </div>
+      <div class="news-item">
+        <div class="news-date num">2026.09.20</div>
+        <span class="news-tag important">重要</span>
+        <div><div class="news-title">荒天時の順延基準について</div><div class="news-body">開催3日前までに実施可否を判断し、このページとエントリー時のメールでご連絡します。</div></div>
+      </div> -->
+      <div class="news-item">
+        <div class="news-date num">2026.09.21</div>
+        <span class="news-tag info">お知らせ</span>
+        <div><div class="news-title">「サバキャン」開催決定のお知らせ</div><div class="news-body">サバゲーとキャンプを同日に楽しむ新しいイベントとして企画がスタートしました。</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="trail-divider"></div>
+
+<section class="pad" id="gear">
+  <div class="wrap">
+    <div class="section-head"><span class="idx num">05</span><h2>持ち物リスト</h2></div>
+    <div class="gear-grid">
+      <div class="gear-col">
+        <h4>サバゲー装備</h4>
+        <ul class="gear-list">
+          <li>アイプロテクション(ゴーグル等)<span class="req">必須</span></li>
+          <li>エアガン一式(レンタル可)</li>
+          <li>BB弾</li>
+          <li>迷彩・汚れてよい服</li>
+          <li>グローブ・ブーツ</li>
+        </ul>
+      </div>
+      <div class="gear-col">
+        <h4>キャンプ装備</h4>
+        <ul class="gear-list">
+          <li>テント・タープ</li>
+          <li>寝袋・マット</li><!--<span class="req">必須</span>-->
+          <li>防寒着(夜は冷え込みます)</li>
+          <li>ヘッドライト・ランタン</li>
+          <li>虫除け・救急セット</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="trail-divider"></div>
+
+<section class="pad" id="rules">
+  <div class="wrap">
+    <div class="section-head"><span class="idx num">06</span><h2>ルール・注意事項</h2></div>
+    <div class="rules-list">
+      <div class="rule-item">
+        <div class="rule-num num">01</div>
+        <div><h4>アイプロテクションは常時着用</h4><p>フィールド内では休憩中も含め、必ずゴーグルを着用してください。</p></div>
+      </div>
+      <div class="rule-item">
+        <div class="rule-num num">02</div>
+        <div><h4>初速・射撃距離のレギュレーション遵守</h4><p>受付時に計測を行います。基準を超える装備は使用できません。</p></div>
+      </div>
+      <div class="rule-item">
+        <div class="rule-num num">03</div>
+        <div><h4>焚き火は指定エリアのみ</h4><p>焚き火・BBQはスタッフが指定する場所以外では行わないでください。</p></div>
+      </div>
+      <div class="rule-item">
+        <div class="rule-num num">04</div>
+        <div><h4>ポイ捨て厳禁</h4><p>フィールドと隣接テントへの配慮をお願いします。</p></div>
+      </div>
+      <div class="rule-item">
+        <div class="rule-num num">05</div>
+        <div><h4>スタッフの指示に従う</h4><p>安全管理のため、ゲーム進行やナイトタイムの案内には従ってください。</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="trail-divider"></div>
+
+<section class="pad" id="access">
+  <div class="wrap">
+    <div class="section-head"><span class="idx num">07</span><h2>アクセス</h2></div>
+    <div class="access-grid">
+      <div class="map-box">
+        <iframe
+          src="https://www.google.com/maps?q=%E5%8D%83%E8%91%89%E7%9C%8C%E5%8D%B0%E8%A5%BF%E5%B8%82%E5%B9%B3%E8%B3%802227-1&output=embed"
+          width="100%" height="100%" style="border:0; filter:saturate(0.85) contrast(1.05);"
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          title="サバイバルゲームフィールド BEAM 地図"></iframe>
+      </div>
+      <dl class="access-detail">
+        <dt>会場名</dt><dd>サバイバルゲームフィールド BEAM</dd>
+        <dt>住所</dt><dd>〒270-1605 千葉県印西市平賀2227-1</dd>
+        <dt>お車の場合</dt><dd>会場内に駐車場あり。台数に限りがあるため、可能な限り乗り合わせをお願いします。</dd>
+        <dt>電車・バスの場合</dt><dd>京成酒々井駅西口ロータリーより送迎あり(最大8名・要事前予約)。希望者はフォームへの回答をお願いします。</dd>
+        <dt>地図アプリで開く</dt><dd><a href="https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E8%91%89%E7%9C%8C%E5%8D%B0%E8%A5%BF%E5%B8%82%E5%B9%B3%E8%B3%802227-1" target="_blank" rel="noopener" style="color:var(--ember-deep); font-weight:700; text-decoration:underline;">Google マップで見る ↗</a></dd>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<div class="trail-divider"></div>
+
+<section class="pad" id="faq">
+  <div class="wrap">
+    <div class="section-head"><span class="idx num">08</span><h2>よくある質問</h2></div>
+
+    <div class="faq-item">
+      <button class="faq-q"><span><span class="q-mark num">Q.</span> サバゲー未経験でも参加できますか?</span><span class="faq-plus">+</span></button>
+      <div class="faq-a"><p>参加できます。開始前に基本ルールと安全講習を行うので、初めての方も安心してご参加ください。</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q"><span><span class="q-mark num">Q.</span> 装備のレンタルはありますか?</span><span class="faq-plus">+</span></button>
+      <div class="faq-a"><p>初心者セット(3,500円)をご用意しています。一部レンタルのみをご希望の場合は個別にご相談ください。</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q"><span><span class="q-mark num">Q.</span> 日帰り参加は可能ですか?</span><span class="faq-plus">+</span></button>
+      <div class="faq-a"><p>可能です。サバゲーのみ、BBQのみ、両方参加のいずれかをお選びいただけます。料金は「料金」セクションをご確認ください。</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q"><span><span class="q-mark num">Q.</span> 申込後にキャンセルする場合は?</span><span class="faq-plus">+</span></button>
+      <div class="faq-a"><p>前日以降(11月13日(金) 00:00〜)のキャンセルは参加費の100%をいただきます。それ以前のキャンセルについては個別にご相談ください。</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q"><span><span class="q-mark num">Q.</span> 締切後の参加(ドタ参)はできますか?</span><span class="faq-plus">+</span></button>
+      <div class="faq-a"><p>要相談です。参加締切(11月8日 24:00)を過ぎている場合は、事前にご連絡ください。</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q"><span><span class="q-mark num">Q.</span> 悪天候の場合はどうなりますか?</span><span class="faq-plus">+</span></button>
+      <div class="faq-a"><p>開催3日前までに実施・中止・順延を判断し、「お知らせ」欄とLINEグループでご案内します。</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="final-cta" id="entry">
+  <h2>昼は撃ち合い、夜は語り合おう。</h2>
+  <p>参加申込は11月8日(日)24:00締切です。お早めにどうぞ。</p>
+  <a href="https://forms.gle/Z2dyhayuvTG1zTHE6" class="btn-primary" target="_blank" rel="noopener">エントリーフォームへ進む</a>
+</section>
+
+<footer>
+  <div class="footer-row">
+    <div class="footer-logo">サバキャン</div>
+    <div class="footer-links">
+      <a href="#overview">開催概要</a>
+      <a href="#fee">料金</a>
+      <a href="#news">お知らせ</a>
+      <a href="#faq">FAQ</a>
+      <a href="#">お問い合わせ</a>
+      <a href="#">プライバシーポリシー</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 サバキャン実行委員会</div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
